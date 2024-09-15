@@ -7,7 +7,7 @@ pool
     port: 5432,
     database: 'socialnetwork',
     user: 'postgres',
-    password: '1234qwer',
+    password: '',
   })
   .then(() => {
     app().listen(3000, () => console.log('Listening on 3000...'));
